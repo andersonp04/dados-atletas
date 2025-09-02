@@ -46,8 +46,9 @@ constructor(nome, idade, peso, altura, notas){
 // }
 // Obeter o Nome do Atleta
     obtemNomeAtleta(){
-    let nome=this.nome
-    console.log(nome)
+    this.nome.forEach(function() => {
+        
+    });
 }
 
 
