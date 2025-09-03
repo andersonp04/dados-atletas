@@ -72,15 +72,15 @@ obtemNotasAtleta(){
     let notas=this.notas
     console.log(notas)
 }
-//obeter categorias
+//obter categorias
 obtemCategoria(){
 let obeterCategoria=this.calculaCategoria()
 }
-
+// obter IMC
 obtemIMC(){
     let obeterIMC=this.calculaIMC()
 }
-
+// Obter Media Valida
  obtemMediaValida(){
     let obeterMediaValida=this.calculaMediaValida()
  }
